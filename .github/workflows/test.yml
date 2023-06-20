@@ -23,7 +23,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: ds918p
+#           - platform: ds918p
+#             version: 7.1.0-42661
+#           - platform: ds3617xs
+#             version: 7.1.0-42661
+          - platform: ds3615xs
             version: 7.1.0-42661
 
     steps:
